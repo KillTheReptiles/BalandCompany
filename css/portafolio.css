@@ -15,8 +15,8 @@ body {
 
 
 /*---------------------------------------
-     TYPOGRAPHY              
-  -----------------------------------------*/
+   TYPOGRAPHY              
+-----------------------------------------*/
 
 h1,
 h2,
@@ -46,8 +46,8 @@ p {
 
 
 /*---------------------------------------
-     GENERAL               
-  -----------------------------------------*/
+   GENERAL               
+-----------------------------------------*/
 
 html {
     -webkit-font-smoothing: antialiased;
@@ -73,12 +73,12 @@ a:focus {
     outline: none;
 }
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 8px;
     height: 8px;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     cursor: pointer;
     background: #202020;
 }
@@ -150,8 +150,8 @@ footer {
 
 
 /*---------------------------------------
-     BUTTONS               
-  -----------------------------------------*/
+   BUTTONS               
+-----------------------------------------*/
 
 .section-btn {
     background: #afafaf;
@@ -172,8 +172,8 @@ footer {
 
 
 /*---------------------------------------
-       PRE LOADER              
-  -----------------------------------------*/
+     PRE LOADER              
+-----------------------------------------*/
 
 .preloader {
     position: fixed;
@@ -225,8 +225,8 @@ footer {
 
 
 /*---------------------------------------
-      MENU              
-  -----------------------------------------*/
+    MENU              
+-----------------------------------------*/
 
 .custom-navbar {
     border: none;
@@ -235,14 +235,14 @@ footer {
 }
 
 .custom-navbar .navbar-brand {
-    color: #f0f0f0;
+    color: #5f5f5f;
     font-size: 25px;
     font-weight: 500;
     letter-spacing: -1px;
 }
 
 .top-nav-collapse {
-    background: #ffffff;
+    background: #5f5f5f;
 }
 
 .custom-navbar .navbar-nav {
@@ -252,7 +252,7 @@ footer {
 .custom-navbar .nav li a {
     font-size: 16px;
     font-weight: normal;
-    color: #f0f0f0;
+    color: #5f5f5f;
     padding-right: 22px;
     padding-left: 22px;
 }
@@ -311,8 +311,8 @@ footer {
 
 
 /*---------------------------------------
-      HOME          
-  -----------------------------------------*/
+    HOME          
+-----------------------------------------*/
 
 #home {
     background: url('../images/home-bg.jpg') no-repeat center center;
@@ -353,8 +353,8 @@ footer {
 
 
 /*---------------------------------------
-      FEATURE              
-  -----------------------------------------*/
+    FEATURE              
+-----------------------------------------*/
 
 #feature {
     background: #ffffff;
@@ -411,8 +411,8 @@ footer {
 
 
 /*---------------------------------------
-      ABOUT              
-  -----------------------------------------*/
+    ABOUT              
+-----------------------------------------*/
 
 #about .col-md-4 {
     margin: 0;
@@ -476,8 +476,8 @@ footer {
 
 
 /*---------------------------------------
-      TESTIMONIAL           
-  -----------------------------------------*/
+    TESTIMONIAL           
+-----------------------------------------*/
 
 #testimonial {
     background: #ffffff;
@@ -543,8 +543,18 @@ footer {
 
 
 /*---------------------------------------
-      PRICING             
-  -----------------------------------------*/
+    PRICING             
+-----------------------------------------*/
+
+#teasers {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portafolioVid {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #about .section-title,
 #pricing .section-title {
@@ -601,8 +611,8 @@ footer {
 
 
 /*---------------------------------------
-      CONTACT             
-  -----------------------------------------*/
+    CONTACT             
+-----------------------------------------*/
 
 #contact-form .col-md-12,
 #contact-form .col-md-4 {
@@ -640,8 +650,8 @@ footer {
 
 
 /*---------------------------------------
-     FOOTER              
-  -----------------------------------------*/
+   FOOTER              
+-----------------------------------------*/
 
 footer {
     padding-bottom: 80px;
@@ -653,8 +663,8 @@ footer {
 
 
 /*---------------------------------------
-     SOCIAL ICON              
-  -----------------------------------------*/
+   SOCIAL ICON              
+-----------------------------------------*/
 
 .social-icon {
     position: relative;
@@ -687,8 +697,8 @@ footer {
 
 
 /*---------------------------------------
-     RESPONSIVE STYLES              
-  -----------------------------------------*/
+   RESPONSIVE STYLES              
+-----------------------------------------*/
 
 @media only screen and (max-width: 1200px) {
     .custom-navbar .navbar-nav {

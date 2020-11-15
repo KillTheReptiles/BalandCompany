@@ -52,8 +52,6 @@
                     <li><a href="https://balandcompany.com/#contact" class="smoothScroll">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-
-
                     <ul class="social-icon">
                         <li>
                             <a href="https://www.instagram.com/thebalandart/" class="fa fa-instagram"></a>
@@ -62,10 +60,12 @@
                             <a href="https://www.facebook.com/thebalandart" class="fa fa-facebook-square" attr="facebook icon"></a>
                         </li>
                         <li>
+                            <a href="https://api.whatsapp.com/send?phone=+573506266968" class="fa fa-whatsapp"></a>
+                        </li>
+                        <li>
                             <a href="#soon" class="fa fa-twitter"></a>
                         </li>
                     </ul>
-
                 </ul>
             </div>
 
@@ -146,7 +146,10 @@
                                 <a href="https://www.facebook.com/thebalandart" class="fa fa-facebook-square" attr="facebook icon"></a>
                             </li>
                             <li>
-                                <a href="#proximamente" class="fa fa-twitter"></a>
+                                <a href="https://api.whatsapp.com/send?phone=+573506266968" class="fa fa-whatsapp"></a>
+                            </li>
+                            <li>
+                                <a href="#soon" class="fa fa-twitter"></a>
                             </li>
                         </ul>
                     </div>
@@ -171,29 +174,6 @@
 
     <script src="https://smtpjs.com/v3/smtp.js">
     </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-
-            emailjs.init('user_YVzlG6QA1f1unAGAT34Jo');
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-
-
-                emailjs.sendForm('service_vqyxcvq', 'template_fio6lgg', this)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
-
 </body>
 
 </html>

@@ -107,16 +107,17 @@
                         </div>
 
                         <div class="col-md-4 col-sm-4">
-                            <input type="text" class="form-control" placeholder="Full name" name="name" required="">
+                            <input type="text" id="box1" class="form-control" placeholder="Full name" name="name" required="">
                         </div>
                         <div class="col-md-4 col-sm-4">
-                            <input type="email" class="form-control" placeholder="Email address" name="email" required="">
+                            <input type="email" id="box2" class="form-control" placeholder="Email address" name="email" required="">
                         </div>
-                        <div class="col-md-4 col-sm-4">
-                            <input type="submit" class="form-control" name="send message" value="Send Message">
-                        </div>
+
                         <div class="col-md-12 col-sm-12">
-                            <textarea class="form-control" rows="8" placeholder="Your message" name="message" required=""></textarea>
+                            <textarea id="box3" class="form-control" rows="8" placeholder="Your message" name="message" required=""></textarea>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <input type="submit" id="sendBox" class="form-control" name="send message" value="Send Message">
                         </div>
                     </form>
                 </div>
@@ -173,7 +174,6 @@
     <script src="https://smtpjs.com/v3/smtp.js">
     </script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-
     <script type="text/javascript">
         (function() {
 
@@ -182,7 +182,9 @@
     </script>
     <script type="text/javascript">
         window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
+            const form = document.getElementById('contact-form');
+
+            form.addEventListener('submit', function(event) {
                 event.preventDefault();
 
 
@@ -192,9 +194,12 @@
                     }, function(error) {
                         console.log('FAILED...', error);
                     });
+                form.reset();
             });
+
         }
     </script>
+    <script type="text/javascript" src="js/app.js"></script>
 
 </body>
 

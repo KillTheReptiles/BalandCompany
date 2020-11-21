@@ -805,3 +805,8 @@ footer {
         height: 65vh;
     }
 }
+
+.titulos {
+    text-align: center;
+    width: 100%;
+}

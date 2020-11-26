@@ -39,8 +39,15 @@ body {
 }
 
 .videos {
-    text-align: center;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.videos iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    width: "860";
-    height: "515";
+    height: 100%;
 }

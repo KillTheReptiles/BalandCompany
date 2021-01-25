@@ -11,7 +11,7 @@ document.write(`
                     </button>
 
                 <!-- lOGO TEXT HERE -->
-                <a href="index.html" onclick="document.location.href = 'index.html'; return false;" class="navbar-brand">Baland Designs</a>
+                <a href="https://balandcompany.com/" class="navbar-brand">Baland Designs</a>
                 
             </div>
 
@@ -19,9 +19,9 @@ document.write(`
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="https://balandcompany.com/" onclick="document.location.href = 'index.html'; return false;" class="smoothScroll">Home</a></li>
-                    <li><a href="https://balandcompany.com/portafolio" onclick="document.location.href = 'portafolio.html'; return false;" class="smoothScroll">Portafolio</a></li>
+                    <li><a href="portafolio" class="smoothScroll">Portafolio</a></li>
                     <li><a href="https://balandcompany.com/#contact" class="smoothScroll">Contact</a></li>
-                    <li><a href="https://balandcompany.com/FAQ" onclick="document.location.href = 'FAQ.html'; return false;" class="smoothScroll">FAQ</a></li>
+                    <li><a href="https://balandcompany.com/FAQ" class="smoothScroll">FAQ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
 

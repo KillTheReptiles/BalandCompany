@@ -17,10 +17,10 @@ document.write(`
             <!-- MENU LINKS -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html" class="smoothScroll">Home</a></li>
-                    <li><a href="portafolio.html" class="smoothScroll">Portafolio</a></li>
+                    <li><a href="index" class="smoothScroll">Home</a></li>
+                    <li><a href="portafolio" class="smoothScroll">Portafolio</a></li>
                     <li><a href="https://balandcompany.com/#contact" class="smoothScroll">Contact</a></li>
-                    <li><a href="FAQ.html" class="smoothScroll">FAQ</a></li>
+                    <li><a href="FAQ" class="smoothScroll">FAQ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
 

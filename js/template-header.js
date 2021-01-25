@@ -18,10 +18,10 @@ document.write(`
             <!-- MENU LINKS -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="https://balandcompany.com/" onclick="document.location.href = 'index.html'; return false;" class="smoothScroll">Home</a></li>
+                    <li><a href="https://balandcompany.com/" class="smoothScroll">Home</a></li>
                     <li><a href="portafolio" class="smoothScroll">Portafolio</a></li>
                     <li><a href="https://balandcompany.com/#contact" class="smoothScroll">Contact</a></li>
-                    <li><a href="https://balandcompany.com/FAQ" class="smoothScroll">FAQ</a></li>
+                    <li><a href="FAQ" class="smoothScroll">FAQ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
 

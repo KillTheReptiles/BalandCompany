@@ -11,7 +11,7 @@ document.write(`
                     </button>
 
                 <!-- lOGO TEXT HERE -->
-                <a href="https://balandcompany.com/" onclick="document.location.href = 'index.html'; return false;" class="navbar-brand">Baland Designs</a>
+                <a href="index.html" onclick="document.location.href = 'index.html'; return false;" class="navbar-brand">Baland Designs</a>
                 
             </div>
 

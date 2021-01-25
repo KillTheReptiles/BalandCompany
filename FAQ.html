@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Baland Company · FAQ</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="team" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/portafolio.css">
+    <!-- MAIN Favicon -->
+    <link rel="icon" type="image/png" href="images/favico.png" sizes="64x64">
+
+</head>
+
+<body>
+    <!-- HEADER MENU -->
+
+    <script src="js/template-header.js"></script>
+
+    <!-- CONTENT -->
+    <section id="FAQ" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <h2 id="FAQ" class="titulos">Frequently Asked Questions</h2>
+            </br>
+            <div class="col-md-6">
+
+                <!-- FAQ ACCORDION -->
+                <div id="accordion-div">
+                    <div>
+                        <h2 class="accordion">What is Baland Designs?</h2>
+                        <div class="panel">
+                            <p>We are a graphic design agency with workers that are capable to make any type of design
+                                you require.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="accordion">How does Baland Designs works?</h2>
+                        <div class="panel">
+                            <p>Working with us is really easy, when you contact us, you tell us as many details about
+                                what you need, you make the payment and we take care of the rest. Our team of workers is
+                                quite large to carry out different types of animations, designs, etc.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="accordion">How does the payment work? What payment methods and currency do you
+                            accept?</h2>
+                        <div class="panel">
+                            <p>We charge for each finished design / animation depending on its difficulty. As currency
+                                we only handle the US dollar. The way of payment can be agreed with the client, but
+                                generally it is through PayPal, because it is a platform that allows secure payments.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="accordion">What kind of discounts do you have?</h2>
+                        <div class="panel">
+                            <p>We currently have an incredible discount that will allow you to save $ 10 for a project
+                                that we do for you. You can earn them if you refer a person to our agency, the only
+                                condition is that your referral must complete a project with us. (the $ 10 are not
+                                cumulative)</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="accordion">Do I have to pay taxes or some kind of fee?</h2>
+                        <div class="panel">
+                            <p>No, we charge you only for the project.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="accordion">Can you help me if I don't have a clear idea for my project?</h2>
+                        <div class="panel">
+                            <p>Yes. We have managed a wide variety of projects, and we can provide you with an advisory
+                                to focus yours on what best suits your needs.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="accordion">How long does it take you to make a project?</h2>
+                        <div class="panel">
+                            <p>It takes about 3-5 business days. This time varies only if the project is highly complex,
+                                for example an animated video made from scratch.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="accordion">Do I have any warranty about the project that you will make me?</h2>
+                        <div class="panel">
+                            <p>We aim to represent your design or animation as accurately as possible, therefore we
+                                accept small changes to the final project. We do not make changes where many things need
+                                to be changed. If you want this, you must pay an extra stipulated by the agency.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="accordion">What is the best social network to contact Baland Designs?</h2>
+                        <div class="panel">
+                            <p>You can contact us through our official social media (WhatsApp, Facebook or Instagram) or
+                                by our email designs@balandcompany.com. You will always have the best service,
+                                insurance, guarantees and other benefits for you.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+
+                <img class="faq-img responsive" src="images/idea-faq.png">
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <script src="js/template-footer.js"></script>
+
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script type='text/javascript'>
+        document.oncontextmenu = function () {
+            return false
+        }
+    </script>
+    <!-- accordion script -->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

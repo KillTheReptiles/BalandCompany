@@ -20,7 +20,7 @@ document.write(`
                 <ul class="nav navbar-nav">
                     <li><a href="https://balandcompany.com/" class="smoothScroll">Home</a></li>
                     <li><a href="portafolio" class="smoothScroll">Portafolio</a></li>
-                    <li><a href="https://balandcompany.com/#contact" class="smoothScroll">Contact</a></li>
+                    <li><a href="https://balandcompany.com/#contact">Contact</a></li>
                     <li><a href="FAQ" class="smoothScroll">FAQ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">

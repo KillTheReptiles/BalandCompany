@@ -37,7 +37,7 @@ document.write(`
                             <a href="https://api.whatsapp.com/send?phone=+573506266968" target="_blank" class="fa fa-whatsapp"></a>
                         </li>
                         <li>
-                            <a href="#soon" target="_blank" class="fa fa-twitter"></a>
+                            <a href="" target="_blank" class="fa fa-twitter"></a>
                         </li>
                     </ul>
                 </ul>

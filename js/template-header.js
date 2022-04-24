@@ -18,9 +18,9 @@ document.write(`
             <!-- MENU LINKS -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="https://balandcompany.com/" class="smoothScroll">Home</a></li>
+                    <li><a href="/" class="smoothScroll">Home</a></li>
                     <li><a href="portafolio" class="smoothScroll">Portafolio</a></li>
-                    <li><a href="https://balandcompany.com/#contact">Contact</a></li>
+                    <li><a href="/#contact">Contact</a></li>
                     <li><a href="faq" class="smoothScroll">FAQ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">

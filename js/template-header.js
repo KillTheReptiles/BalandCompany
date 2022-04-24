@@ -11,16 +11,16 @@ document.write(`
                     </button>
 
                 <!-- lOGO TEXT HERE -->
-                <a href="/" class="navbar-brand">Baland Designs</a>
+                <a href="/BalandCompany" class="navbar-brand">Baland Designs</a>
                 
             </div>
 
             <!-- MENU LINKS -->
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/" class="smoothScroll">Home</a></li>
+                    <li><a href="BalandCompany/" class="smoothScroll">Home</a></li>
                     <li><a href="portafolio" class="smoothScroll">Portafolio</a></li>
-                    <li><a href="/#contact">Contact</a></li>
+                    <li><a href="BalandCompany/#contact">Contact</a></li>
                     <li><a href="faq" class="smoothScroll">FAQ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">

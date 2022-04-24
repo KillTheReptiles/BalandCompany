@@ -11,7 +11,7 @@ document.write(`
                     </button>
 
                 <!-- lOGO TEXT HERE -->
-                <a href="https://balandcompany.com/" class="navbar-brand">Baland Designs</a>
+                <a href="/" class="navbar-brand">Baland Designs</a>
                 
             </div>
 
